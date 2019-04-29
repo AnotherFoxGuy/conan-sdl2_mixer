@@ -3,6 +3,13 @@ build: false
 environment:
     PYTHON_HOME: "C:\\Python37"
 
+    CONAN_REFERENCE: "sdl2_mixer/2.0.4"
+    CONAN_USERNAME: "anotherfoxguy"
+    CONAN_LOGIN_USERNAME: "anotherfoxguy"
+    CONAN_CHANNEL: "stable"
+    CONAN_UPLOAD: "https://api.bintray.com/conan/anotherfoxguy/conan-packages"
+
+
     matrix:
         - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
           CONAN_VISUAL_VERSIONS: 14
